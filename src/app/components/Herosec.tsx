@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello,Im{""}
+              Hello, I'm{""}
             </span>
             <br></br>
             <TypeAnimation
@@ -28,7 +28,6 @@ const HeroSection = () => {
                 1000,
                 "Frontend Developer",
                 1000,
-              
               ]}
               wrapper="span"
               speed={50}
@@ -36,17 +35,14 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Passionate Developer Creating Innovative Solutions with AI, Programming, and Design to Shape the Future.
+            Passionate Developer Creating Innovative Solutions with AI, Programming, and Design to Shape the Future.
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="https://www.linkedin.com/in/laiba-jawed/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-            <Link href="https://www.linkedin.com/in/laiba-jawed/">
               Hire Me
-            </Link>
-
             </Link>
             <Link
               href="/"
