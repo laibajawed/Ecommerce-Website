@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Herosec from "./components/Herosec";
 import Navbar from "./components/Navbar";
 import Aboutsec from "./components/Aboutsec";

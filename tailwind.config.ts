@@ -1,10 +1,12 @@
+
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
+
 module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  content:  [
+    './src/**/*.{js,ts,jsx,tsx}',
+    './public/index.html',
+    
   ],
   theme: {
     extend: {
@@ -13,11 +15,10 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
+      colors: {
+        primary: colors.purple,
+        secondary: colors.pink,
+      },
     },
   },
   plugins: [],
