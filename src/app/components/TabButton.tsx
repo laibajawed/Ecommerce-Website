@@ -1,14 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const variants = {
-  default: { width: 0 },
-  active: { width: "calc(100% - 0.75rem)" },
-};
+interface TabButtonProps {
+  active: boolean;
+  selectTab: () => void;
+  children: React.ReactNode;
+}
 
-const TabButton = ({ active, selectTab, children }) => {
+const TabButton: React.FC<TabButtonProps> = ({ active, selectTab, children }) => {
   const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
 
+  const variants = {
+    active: { width: "100%", opacity: 1 },  // Full width and visible when active
+    default: { width: "0%", opacity: 0 },  // No width and hidden when not active
+  };
   return (
     <button onClick={selectTab}>
       <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>

@@ -2,7 +2,21 @@ import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+interface ProjectCardProps {
+  imgUrl: string; // URL of the project image
+  title: string; // Title of the project
+  description: string; // Brief description of the project
+  gitUrl: string; // GitHub URL for the project
+  previewUrl: string; // URL to preview the project
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  imgUrl,
+  title,
+  description,
+  gitUrl,
+  previewUrl,
+})  => {
   return (
     <div>
       <div
