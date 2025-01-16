@@ -12,7 +12,7 @@ const projectsData = [
     image: "projects/1.jpeg",
     tag: ["All"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://amazon-clone-opal-seven.vercel.app/",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     image: "projects/2.jpeg",
     tag: ["All"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://youtube-ui-lemon.vercel.app/",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const projectsData = [
     image: "projects/3.jpeg",
     tag: ["All"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://milestone2bylaiba.vercel.app/",
   },
   {
     id: 4,
@@ -40,7 +40,16 @@ const projectsData = [
     image: "projects/4.jpeg",
     tag: ["All"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://laibasdynamicresume.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Blog Website",
+    description: "Built with Tailwind CSS, Next js, Sanity and TypeScript for dynamic user experiences.",
+    image: "projects/5.jpeg",
+    tag: ["All"],
+    gitUrl: "/",
+    previewUrl: "https://sanity-blog-website-three.vercel.app/",
   },
 
 ];
